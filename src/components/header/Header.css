@@ -1,0 +1,72 @@
+.header-main-container {
+    background-color:#222;
+    font-size: 14px;
+    padding: 0.2rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    position: relative;
+    left: 15%;
+} */
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.social-media {
+}
+
+.buttons {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.buttons button{
+    margin: 0.6rem;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.button2:hover, .button1:hover {
+    color:rgb(203, 137, 61);
+    background-color: transparent;
+}
+
+.button3 {
+    background-color: #39f !important;
+    padding: 0.6rem;
+    border-radius: 5px;
+    text-shadow: 0 1.5px 2px #124374;
+}
+
+.button3:hover {
+    opacity: 0.9;
+}
+
+.social-media a:hover {
+    opacity: 0.6;
+}
+
+
+.caret:after{
+    content: "\25BC"; 
+    color:rgb(203, 137, 61);
+    font-size: 0.7rem;
+   font-weight: 200;
+   position: relative;
+   top: 30%;
+   /* left: -100%; */
+   right: 100%;
+} 

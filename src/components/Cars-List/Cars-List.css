@@ -1,0 +1,41 @@
+.car-list-parent-container{ 
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    height: 100%;
+
+}
+
+.car-list-container{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
+    max-width: 70%;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+    place-items: center;
+    margin-top: 1rem;
+}
+
+
+.car-list-arrows {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem
+}
+
+/*      LOADING SPINNER      */
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

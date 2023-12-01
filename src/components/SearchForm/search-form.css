@@ -1,0 +1,214 @@
+.search-parent-container {
+    padding: 2rem 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../../assets/images/cars-for-wallpaper.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.search-div {
+    margin-top: 3rem;
+    max-width: 50%;
+    color: black;
+    /* position: relative; */
+    /* left: 25%; */
+    /* height: 15rem; */
+    border-radius: 15px;
+    box-shadow: 0 0 4px 8px rgba(0, 0, 0, 0.06); 
+}
+
+.table {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #ccc; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.table .auto-table-logo { 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 0.6rem 1.8rem;
+}
+
+.table span {
+    font-weight:500;
+    margin-right: 1rem;
+}
+
+.table p {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 5px;
+    align-items: flex-start;
+}
+
+.table .broj-oglasa {
+    font-size: 16px;
+}
+
+/* ------------------------------------------------------- */
+
+.search-options  {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background-color: white;
+padding: 1rem;
+border-radius: 15px;
+}
+
+ select:focus,
+ select:hover {
+    border: 1px solid orange;
+    background-color: rgb(245, 186, 119, 0.1);
+    outline: none;
+} 
+
+select:focus option,
+select:hover option {
+    background-color: white; 
+    border: none;
+}
+
+.search-options .second-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.second-row .car-year {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .car-year select {
+    width: 45%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+} */
+
+.second-row .checkbox {
+    width: 30%;
+}
+.checkbox select {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+.third-row  .checkbox{
+    width: 30%;
+}
+.checkbox select {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.third-row .car-region {
+    width: 30%;
+}
+.car-region select {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.third-row .car-new-used {
+    width: 30%;
+}
+.car-new-used select {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.second-row .car-search-button {
+    width: 30%;
+}
+
+.second-row .search-button {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-image: url('../../assets/images/search-icon.png');
+    background-color: #f1a41a;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.second-row .search-button:hover {
+    background-color: #f1b950;
+    transition: background-color .15s ease;
+}
+
+/*     ADDITIONAL SEARCH OPTIONS BUTTON      */
+
+.detaljna-pretraga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    font-size: 12px;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: #eee;
+    transition: background-color .15s ease;
+}
+
+.detaljna-pretraga:hover {
+    background-color: #bebebe;
+}
+
+hr {
+    width: 95%;
+    opacity: 0.4;
+}
+
+/*      YOUTUBE VIDEO       */
+
+.youtube-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+
+    margin-top: 3rem;
+    max-width: 30%;
+    height: auto;
+    /* box-shadow: 0 0 10px 5px #ccc; */
+    border-radius: 10px;
+    margin-left: 2rem;
+    background: transparent;
+}
+
+
