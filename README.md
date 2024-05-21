@@ -1,4 +1,4 @@
-# frontend-car-sales
+# Polovni-automobili
 Full-stack site for selling used and new cars
 
 npm install
