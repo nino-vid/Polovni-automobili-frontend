@@ -1,5 +1,5 @@
 # frontend-car-sales
-frontend site for selling used and new cars
+Full-stack site for selling used and new cars
 
 npm install
 
